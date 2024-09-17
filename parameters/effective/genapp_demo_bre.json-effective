@@ -1,0 +1,2927 @@
+{
+  "mapGlobal":                                               {
+    "client-name":                                           "GENAPP",
+
+    "parameter-isolate-extractlogicflow-resolver-type":      "business-text",
+
+    "parameter-run-single-step":                             "",
+
+    "project-root":                                          "genapp-bre",
+    "root":                                                  "data",
+
+    "source-include-path-1":                                 "source/{$project-root}/CPY/*.cpy",
+
+    "source-main":                                           "source/{$project-root}/CBL/*.cbl"
+  },
+  "mapGlobalSettings":                                       {
+    "map":                                                   {
+      "client-name":                                         {
+        "value":                                             "GENAPP",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "comment-processor":                                   {
+        "value":                                             "com.turandot.framework.comments.custom.GeneralLegacyComments",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "dummy":                                               {
+        "value":                                             "dummy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "graph-type":                                          {
+        "value":                                             "default",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-bre-optimize-if-then-else":                 {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-cache-lazywrite":                           {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-cache-threshold":                           {
+        "value":                                             "5000000",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-call-graph-variable-lookup-name-column":    {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-call-graph-variable-lookup-sheet-name":     {
+        "value":                                             "PgmNameTable",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-call-graph-variable-lookup-title-row":      {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-call-graph-variable-lookup-value-column":   {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-camel-case":                                {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-clear-targets":                             {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-client-customization":                      {
+        "value":                                             "com.turandot.framework.client.ElevanceCustomizations",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-common-component-threshold":                {
+        "value":                                             "25",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-custom-naming":                             {
+        "value":                                             "define.class.Here",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-data-dictionary-name-column":               {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-data-dictionary-sheet-name":                {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-data-dictionary-title-row":                 {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-data-dictionary-value-column":              {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-database-business-abbreviations":           {
+        "value":                                             "{$client-name}_BUSINESS_ABBREVATIONS",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-database-data-dictionary":                  {
+        "value":                                             "{$client-name}_DATA_DICTIONARY",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-debug-level":                               {
+        "value":                                             "NONE",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-dictionary-pattern":                        {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-display-bre-comment":                       {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-display-bre-header":                        {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-driver":                                    {
+        "value":                                             "com.mysql.jdbc.Driver",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-error-ddname-1":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-10":                           {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-2":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-3":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-4":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-5":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-6":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-7":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-8":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-error-ddname-9":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-excel-base-file-access-test-case-sheet-name": {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-base-file-access-test-case-title-row": {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-linkage-section-calls-name-column":   {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-linkage-section-calls-sheet-name":    {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-linkage-section-calls-title-row":     {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-linkage-section-calls-value-column":  {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-abbreviations-business-name-column": {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-abbreviations-sheet-name":       {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-abbreviations-title-row":        {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-abbreviations-variable-name-column": {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-data-dictionary-business-name-column": {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-data-dictionary-sheet-name":     {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-data-dictionary-title-row":      {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-data-dictionary-variable-name-column": {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-trans-code-lookup-name-column":  {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-trans-code-lookup-sheet-name":   {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-trans-code-lookup-title-row":    {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-excel-load-trans-code-lookup-value-column": {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-execution-mode":                            {
+        "value":                                             "program",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-extractlogicflow-show-clustering":          {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-glossary-name-column":                      {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-glossary-sheet-name":                       {
+        "value":                                             "Sheet1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-glossary-title-row":                        {
+        "value":                                             "0",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-glossary-value-column":                     {
+        "value":                                             "1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-has-cics-trans-code-lookup":                {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-individual-results":                        {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-isolate-extractlogicflow-resolver-type":    {
+        "value":                                             "business-text",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-isolate-path-selection":                    {
+        "value":                                             "Module.LGIPDB01",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-isolated-variables":                        {
+        "value":                                             "SELECTED-VARIALABLES",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-label-based":                               {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-max-paths":                                 {
+        "value":                                             "25",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-max-recursions":                            {
+        "value":                                             "5",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-memory-db":                                 {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-must-contain":                              {
+        "value":                                             "FINAL-MODULE",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-name-database-credentials":                 {
+        "value":                                             "{$client-name}.CREDENTIALS",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-optimize-local-logic":                      {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-outcome":                                   {
+        "value":                                             "Module.X/Idenfifier.Y",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-outcome-filter":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-output-level":                              {
+        "value":                                             "level-5",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-output-naming":                             {
+        "value":                                             "program",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-overwrite":                                 {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-password":                                  {
+        "value":                                             "devdev",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-process-bms":                               {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-process-bracket-and-or-logic":              {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-process-elevance-time-date-pattern":        {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-process-negate-goto":                       {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-processing-mode":                           {
+        "value":                                             "default",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-program-area":                              {
+        "value":                                             "Eligibility",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-prompt-url-value":                          {
+
+        "value":                                             "https://ct-oas3-to-pyflask-genai-demo-app.gal-demo-f72ef11f3ab089a8c677044eb28292cd-i000.eu-de.containers.appdomain.cloud",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-prompt-value":                              {
+        "value":                                             "GenAI-6_Pseudo2Mainframe.01",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-propagate-loops":                           {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-regex":                                     {
+        "value":                                             "^DDC-.*$",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-regression-test":                           {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-remove-indexes":                            {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-resolve-level-88":                          {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-resolve-literals":                          {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-rule-list":                                 {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-run-single-step":                           {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-selection-list":                            {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-selection-variable":                        {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-single-outcome":                            {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-skip-data-collection":                      {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-skip-task-if-target-exists":                {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-source-filter":                             {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-source-filter-exact-match":                 {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-tag-each-rule":                             {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-terminate-loop":                            {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-threshold":                                 {
+        "value":                                             "10",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-trace-variable-name":                       {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-trace-vertex-regex":                        {
+        "value":                                             "SOME-NAME",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-url":                                       {
+        "value":                                             "jdbc,mysql,//localhost,3306/mysql",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-use-original-filename":                     {
+        "value":                                             "false",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-use-sax-processing":                        {
+        "value":                                             "true",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-user":                                      {
+        "value":                                             "dev",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-variable-exclusion-list":                   {
+
+        "value":                                             "WS-,TEST--",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "parameter-variable-selection":                        {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "parameter-variable-values":                           {
+        "value":                                             "",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "project-root":                                        {
+        "value":                                             "genapp-bre",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "root":                                                {
+        "value":                                             "data",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-block-text":                                   {
+        "value":                                             "source/{$project-root}/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-bms":                                          {
+        "value":                                             "source/{$project-root}/bms/*.bms",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-bms-grammar":                                  {
+        "value":                                             "../cmt-runner/src/main/resources/CFG/BMS/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-call-graph-variable-lookup-xlsx":              {
+
+        "value":                                             "source/{$project-root}/variable-lookup/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-class-catalog-json":                           {
+
+        "value":                                             "source/{$project-root}/module-catalog/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-config-path":                                  {
+        "value":                                             "source/{$project-root}/config/*.cfg",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-ctrl":                                         {
+        "value":                                             "source/{$project-root}/ctrl/*.ctrl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-data-dictionary-xlsx":                         {
+
+        "value":                                             "source/{$project-root}/documentation/data-dictionary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-excel-load-base-file-access-test-case":        {
+
+        "value":                                             "source/{$project-root}/excel/base-file-access-test-case/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-excel-load-business-abbreviations-path":       {
+
+        "value":                                             "source/{$project-root}/excel/business-abbreviations/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-excel-load-cics-trans-code-lookup":            {
+
+        "value":                                             "source/{$project-root}/excel/cics-transcode-lookup/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-excel-load-data-dictionary-path":              {
+
+        "value":                                             "source/{$project-root}/excel/data-dictionary/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-exclusion-list":                               {
+
+        "value":                                             "source/{$project-root}/call-exclusion-list/exclusion-list.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-file-access-test-cases-text":                  {
+
+        "value":                                             "source/{$project-root}/file-access-test-cases/test-cases.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-glossary-constraint-text":                     {
+
+        "value":                                             "source/{$project-root}/glossary-root-variables/constrained-list.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-glossary-json":                                {
+        "value":                                             "source/{$project-root}/cobol/glossary/glossary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-glossary-xlsx":                                {
+        "value":                                             "source/{$project-root}/documentation/glossary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-1":                               {
+        "value":                                             "source/{$project-root}/CPY/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-include-path-2":                               {
+
+        "value":                                             "source/{$project-root}/CPY-2/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-3":                               {
+
+        "value":                                             "source/{$project-root}/CPY-3/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-4":                               {
+
+        "value":                                             "source/{$project-root}/CPY-4/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-5":                               {
+
+        "value":                                             "source/{$project-root}/CPY-5/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-6":                               {
+
+        "value":                                             "source/{$project-root}/CPY-6/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-7":                               {
+
+        "value":                                             "source/{$project-root}/CPY-7/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-8":                               {
+
+        "value":                                             "source/{$project-root}/CPY-8/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-include-path-9":                               {
+
+        "value":                                             "source/{$project-root}/CPY-9/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-jcl":                                          {
+        "value":                                             "source/{$project-root}/jcl/*.jcl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-jobnet-txt":                                   {
+        "value":                                             "source/{$project-root}/jobnet/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-latest-generated-text":                        {
+
+        "value":                                             "source/{$project-root}/latest-generated-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-main":                                         {
+        "value":                                             "source/{$project-root}/CBL/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-main-unfiltered":                              {
+
+        "value":                                             "source/{$project-root}/COBOL-Unfilteered/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-model-xml":                                    {
+        "value":                                             "source/{$project-root}/*.entityType",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-modified-text":                                {
+
+        "value":                                             "source/{$project-root}/modified-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-original-text":                                {
+
+        "value":                                             "source/{$project-root}/original-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-proc":                                         {
+        "value":                                             "source/{$project-root}/proc/*.proc",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-rdf-1":                                        {
+        "value":                                             "source/{$project-root}/RDF FILES/DB.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-rdf-2":                                        {
+        "value":                                             "source/{$project-root}/RDF FILES/call.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-root":                                         {
+        "value":                                             "source/{$project-root}/*.*",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "source-sysin":                                        {
+        "value":                                             "source/{$project-root}/Sysin/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-token-fragment-data-division":                 {
+
+        "value":                                             "{$project-root}/cobol/04_isolate_token_streams/token-fragments/data-division/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-token-fragment-environment-division":          {
+
+        "value":                                             "{$project-root}/cobol/04_isolate_token_streams/token-fragments/environment-division/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-token-fragment-procedure-division":            {
+
+        "value":                                             "{$project-root}/cobol/04_isolate_token_streams/token-fragments/procedure-division/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "source-variable-list-text":                           {
+
+        "value":                                             "source/{$project-root}/variable-list/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "structure-louvan-text":                               {
+
+        "value":                                             "{$project-root}/cobol/15-community/louvan/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-abstract-code":                                {
+
+        "value":                                             "{$project-root}/cobol/06_abstract/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-abstract-code-json":                           {
+        "value":                                             "{$project-root}/cobol/06_abstract/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-abstract-code-rdf":                            {
+
+        "value":                                             "{$project-root}/cobol/06_abstract/rdf/clone-and-metric-summary.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-annotated-ast":                                {
+
+        "value":                                             "{$project-root}/cobol/23-annotate-ast/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-assembler-source":                             {
+
+        "value":                                             "{$project-root}/classified-assembler/*.asm",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-ast-test-data":                                {
+
+        "value":                                             "{$project-root}/cobol/80-bre/test/04-ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-block-text":                                   {
+
+        "value":                                             "{$project-root}/block-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-bm-diagram":                                   {
+
+        "value":                                             "{$project-root}/bm-diagram/integrated.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-bre-ast":                                      {
+
+        "value":                                             "{$project-root}/cobol/80-bre/test/bre-ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-bre-formatted-txt":                            {
+
+        "value":                                             "{$project-root}/cobol/80-bre/test/formatted-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-bre-unittest-actual":                          {
+
+        "value":                                             "../cobol/src/test/resources/elevance-health/99-actual/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-bre-unittest-cobol":                           {
+
+        "value":                                             "{$project-root}/bre-unit-test/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-bre-single-text":                     {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-single/business/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-bre-text":                            {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-text/business/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-bre-with-tracing-text":               {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-with-tracing-text/business/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-logic-boolean-logic-trace-details-text": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/01-boolean-algebra-trace/business/details/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-logic-boolean-logic-trace-text":      {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/01-boolean-algebra-trace/business/summary/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-business-consolidated-variables-xlsx": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/06-consolidated/excel/business/*_business.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-business-variables-json":        {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/04-deployable/json/business/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-business-variables-xlsx":        {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/04-deployable/excel/business/*_business.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-extraction-disqulafied-literals-csv": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/09-performance/disqualified-literals/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-extraction-performance-csv":     {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/09-performance/performance/csv/rule-generation-performance.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-metrics-xlsx":                   {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/06-consolidated/excel/metrics/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-parameter-dependencies-json":    {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/10-support/json/parameter-dependencies/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-program-consolidated-variables-xlsx": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/06-consolidated/excel/program/*_program.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-program-variables-json":         {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/04-deployable/json/program/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-business-rule-program-variables-xlsx":         {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/04-deployable/excel/program/*_program.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-call-graph-variable-lookup-json":              {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/variable-lookup/PgmName-Lookup.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-called-by-map-json":                           {
+
+        "value":                                             "{$project-root}/glossary/called-by/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-client-preprocessor-include":                  {
+
+        "value":                                             "{$project-root}/cobol/02_copybook/01_processed/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-client-preprocessor-main":                     {
+
+        "value":                                             "{$project-root}/cobol/01A_processed/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-cobol-errors":                                 {
+
+        "value":                                             "source/{$project-root}/files-with-issues/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-cobol-source":                                 {
+
+        "value":                                             "{$project-root}/classified-cobol/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-combined-constrained-variable-list-text":      {
+
+        "value":                                             "{$project-root}/glossary/combined/constrained-list.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-combined-constrained-variable-source-list-text": {
+
+        "value":                                             "{$project-root}/glossary/combined/constrained-source-list.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-constrained-variable-list-text":               {
+
+        "value":                                             "{$project-root}/glossary/single/constrained-list-*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-constrained-variable-source-list-text":        {
+
+        "value":                                             "{$project-root}/glossary/single/constrained-variable-list/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-copy-include":                                 {
+        "value":                                             "{$project-root}/cobol/00_copybooks/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-crud-graphml":                                 {
+        "value":                                             "{$project-root}/jcl/crud/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-crud-rdf":                                     {
+        "value":                                             "{$project-root}/jcl/crud/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-customized-ast":                               {
+
+        "value":                                             "{$project-root}/cobol/25-customized-ast/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-data-dictionary-json":                         {
+
+        "value":                                             "{$project-root}/merged-data/data-dictionary/json/data-dictionary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-data-structure-test-data":                     {
+
+        "value":                                             "{$project-root}/cobol/80-bre/test/data-structure-test/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-dependency-graph-bifrucated-graphml":          {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph-bifrucated/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-dependency-graph-bifrucated-rdf":              {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph-bifrucated/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-dependency-graph-graphml":                     {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-dependency-graph-rdf":                         {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-elevance-time-date-ast":                       {
+
+        "value":                                             "{$project-root}/cobol/24-structure-elevance-date-time/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-elevance-time-date-transformation-json":       {
+
+        "value":                                             "{$project-root}/cobol/25-elevance-time-date/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-elevance-transformation-pseudo-code":          {
+
+        "value":                                             "{$project-root}/cobol/25-elevance-time-date/pseudocode/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-er-diagram":                                   {
+
+        "value":                                             "{$project-root}/er-diagram/integrated.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-base-file-access-test-case-json":   {
+
+        "value":                                             "{$project-root}/excel/base-file-access-test-case.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-business-abbreviations-json":       {
+
+        "value":                                             "{$project-root}/excel/business-abbreviations.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-cics-trans-code-lookup-json":       {
+
+        "value":                                             "{$project-root}/excel/cics-trans-code-lookup.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-consoladated-glossary-html": {
+
+        "value":                                             "{$project-root}/excel/business-consoladated-glossary.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-consoladated-glossary-json": {
+
+        "value":                                             "{$project-root}/excel/business-consoladated-glossary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-json":              {
+
+        "value":                                             "{$project-root}/excel/data-dictionary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-ngram-html":        {
+
+        "value":                                             "{$project-root}/excel/ngram-analysis/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-ngram-selection-html": {
+
+        "value":                                             "{$project-root}/excel/ngram--selection-analysis/derived-glossary.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-ngram-selection-json": {
+
+        "value":                                             "{$project-root}/excel/ngram--selection-analysis/derived-glossary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-data-dictionary-ngram-stats-selection-html": {
+
+        "value":                                             "{$project-root}/excel/ngram--selection-analysis-stats/derived-glossary.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-excel-load-linkage-section-calls-json":        {
+
+        "value":                                             "{$project-root}/excel/linkage-section-calls.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extend-possible-values-json-possible-values":  {
+
+        "value":                                             "{$project-root}//cobol/12_extend_possible_values/json/possible-values/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-bms-db-csv":                           {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/mapping-report/sql-cobol-mapping.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-db-csv":                          {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/db-graph/crud-summary.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-db-graphml":                      {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/db-graph/crud-summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-db-json":                         {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/db-graph/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-db-rdf":                          {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/db-graph/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-graph-csv":                       {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/csv/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-graph-graphml":                   {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-graph-html":                      {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-graph-rdf":                       {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-louvain-graphml":                 {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/louvain-graph/graphml/summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-louvain-rdf":                     {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/louvain-graph/rdf/summary.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-louvain-weights-txt":             {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/louvain-graph/weights/summary.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extract-call-screen-graphml":                  {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/db-graph/screen-summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extracted-label-names-from-exec-sql-json":     {
+
+        "value":                                             "source/{$project-root}/extract-label-names-from-exec-sql/table-summary.sql",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extracted-outcome-id-text":                    {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/id-set/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extracted-outcome-text":                       {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-data-division-synomym-json":  {
+
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/json/data-division-synonym/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-debug-name":                  {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/depricated/debug/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-graphml":                     {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/depricated/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-html":                        {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/depricated/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-isolate-path":                {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/isolated/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-isolate-path-single":         {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/isolated-single-logic-graph/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-isolated-logic-flat-html-name": {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/isolated-single-logic-graph-flat/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-isolated-logic-html-name":    {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/isolated-single-logic-graph/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-isolated-logic-json-name":    {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/isolated-single-logic-graph/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-graphml":         {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/full/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-html":            {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/full/svg_html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-rdf":             {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/full/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-reduced-graphml": {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/reduced/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-reduced-rdf":     {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/reduced/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-logic-graph-svg":             {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/full/svg/*.svg",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-pseudo-code":                 {
+
+        "value":                                             "{$project-root}/cobol/13_logic-pseudo-code/full/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-pseudo-code-reduced":         {
+
+        "value":                                             "{$project-root}/cobol/13_logic-pseudo-code/reduced/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-rdf":                         {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/depricated/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-variable-abbreviations":      {
+
+        "value":                                             "{$project-root}/cobol/13_logic-abbreviation-list/abbreviation-list.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractlogicflow-variable-data-dictionary-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/variable-data-dictionary/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-extractredefinesmapping":                      {
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/rdf/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractredefinesmapping-target-html-1-name":   {
+
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/html/01-structure-only/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractredefinesmapping-target-html-2-name":   {
+
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/html/02-redefines-resolved/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractredefinesmapping-target-json-1-name":   {
+
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/json/data-division-mapping/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-extractredefinesmapping-target-synomym-json":  {
+        "value":                                             "{$project-root}/cobol/10_redefines_mapping/json/ynonym/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-file-access-test-case-csv":                    {
+
+        "value":                                             "{$project-root}/file-access-test-cases/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-file-access-test-case-json":                   {
+
+        "value":                                             "{$project-root}/file-access-test-cases/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-filecrud-call-db-csv":                         {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/file-crud/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-filecrud-graphml":                             {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/file-crud/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-filecrud-rdf":                                 {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/file-crud/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-filecrud-structure":                           {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/ast*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-final-dependency-graph-rdf":                   {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph/rdf/final/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-flow-graph-with-source-html":                  {
+
+        "value":                                             "{$project-root}/cobol/13_logic-graph/full/graph-with-source/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-frequency-analysis-html":                      {
+
+        "value":                                             "{$project-root}/cobol/31_business-frequency-analysis/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-frequency-analysis-integrated-graphml":        {
+
+        "value":                                             "{$project-root}/cobol/31_business-frequency-analysis/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-frequency-analysis-summary-html":              {
+
+        "value":                                             "{$project-root}/cobol/31_business-frequency-analysis-summary/html/summary.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-global-call-csv":                              {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/call-graph/global-csv/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-glossary-json":                                {
+
+        "value":                                             "{$project-root}/merged-data/glossary/json/glossary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-graph-svg":                                    {
+
+        "value":                                             "{$project-root}/cobol/999-graphviz/svg/*.svg",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-graphviz-sample":                              {
+
+        "value":                                             "{$project-root}/cobol/999-graphviz/dot/*.dot",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-graphml-global":                       {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/global/graphml/include-matrix.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-graphml-local":                        {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/local/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-html-global":                          {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/global/html/missing-copybooks.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-rdf-global":                           {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/global/rdf/include-matrix.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-rdf-local":                            {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/local/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-include-text-global":                          {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/include-matrix/global/text/missing-copybooks.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-and-fragment-tagged-ast":              {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-and-fragment-tagged-ast/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-and-fragmented-ast":                   {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-and-fragmented-ast/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-and-fragmented-graphml":               {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-and-fragmented-ast/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-and-fragmented-rdf":                   {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-and-fragmented-ast/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-ast":                                  {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-ast/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-label-graph":                          {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-ast/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-label-rdf":                            {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-ast/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inlined-labels":                               {
+
+        "value":                                             "{$project-root}/cobol/04_structure/inlined-ast/inlined-labels/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-inventory":                                    {
+        "value":                                             "{$project-root}/inventory/inventory.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-inventory-initial":                            {
+
+        "value":                                             "{$project-root}/inventory/inventory-initial.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-io-map-json":                                  {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph/io-map/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-isolated-structure-path":                      {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/debug/rule-isolation/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-ims-graphml":                              {
+        "value":                                             "{$project-root}/job/ims/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-jcl-ims-rdf":                                  {
+        "value":                                             "{$project-root}/job/ims/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-jcl-no-comment":                               {
+
+        "value":                                             "{$project-root}/job/jcl/preprocess-no-comment/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-preprocess":                               {
+        "value":                                             "{$project-root}/job/jcl/preprocess/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-jcl-proc-intergrated-merge-graphml":           {
+
+        "value":                                             "{$project-root}/job/proc/structure/graphml-merged-integrated/integrated.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-intergrated-merge-rdf":               {
+
+        "value":                                             "{$project-root}/job/proc/structure/rdf-merged-integrated/integrated.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-map-error-variables-json":            {
+
+        "value":                                             "{$project-root}/job/proc/structure/error-variables/error-variables.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-ast":                           {
+
+        "value":                                             "{$project-root}/job/proc/structure/ast-merged/*.ast-jcl-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-graphml":                       {
+
+        "value":                                             "{$project-root}/job/proc/structure/graphml-merged/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-json":                          {
+
+        "value":                                             "{$project-root}/job/proc/structure/json-merged/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-rdf":                           {
+
+        "value":                                             "{$project-root}/job/proc/structure/rdf-merged/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-reduced-graphml":               {
+
+        "value":                                             "{$project-root}/job/proc/structure/reduced-graphml-merged/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-merge-reduced-rdf":                   {
+
+        "value":                                             "{$project-root}/job/proc/structure/reduced-rdf-merged/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-proc-summary-data-flow-csv":               {
+
+        "value":                                             "{$project-root}/job/proc/structure/data-flow-summary/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-steps-json":                               {
+        "value":                                             "{$project-root}/job/jcl/structure/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-jcl-structure":                                {
+
+        "value":                                             "{$project-root}/job/jcl/structure/ast/*.ast-jcl-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jcl-tokenizer":                                {
+
+        "value":                                             "{$project-root}/job/jcl/tokenizer/*.token-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jobnet-graphml":                               {
+        "value":                                             "{$project-root}/jobnet/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-jobnet-group-graphml":                         {
+
+        "value":                                             "{$project-root}/jobnet-group/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jobnet-group-rdf":                             {
+
+        "value":                                             "{$project-root}/jobnet-group/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-jobnet-rdf":                                   {
+        "value":                                             "{$project-root}/jobnet/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-latest-generated-with-changes-text":           {
+
+        "value":                                             "{$project-root}/latest-generated-text-with-changes/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-graphml":                        {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/dependencies/graphml/data-flow-dependency-summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-rdf":                            {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/dependencies/rdf/data-flow-dependency-summary.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-graphml":                 {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single/graphml/data-flow-overview-single-*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-pgm-detail-graphml":      {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/graphml/02-data-flow-overview-single-detail-*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-pgm-detail-rdf":          {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/rdf/02-data-flow-overview-single-detail-*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-pgm-graphml":             {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/graphml/01-data-flow-overview-single-*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-pgm-rdf":                 {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/rdf/01-data-flow-overview-single-*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-rdf":                     {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single/rdf/data-flow-overview-single-*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-structure-graphml":       {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/graphml/03-data-flow-overview-single-structure-Path_3.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-single-structure-rdf":           {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/single-pgm/rdf/03-data-flow-overview-single-structure-Path_3.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-summary-extended-graphml":       {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/summary-extended/graphml/data-flow-overview-summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-summary-extended-rdf":           {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/summary-extended/rdf/data-flow-overview-summary.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-summary-graphml":                {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/summary/graphml/data-flow-overview-summary.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-summary-rdf":                    {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/summary/rdf/data-flow-overview-summary.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-link-programs-xlsx":                           {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/excel/data-flow-summary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-linkage-section-call-lookup-csv":              {
+
+        "value":                                             "{$project-root}/cobol/linkage-section-call-lookup/linkage-section-call-lookup.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-full-no-loops-program-graph-by-rule-graphml": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/rule-graph/full-no-loops/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-full-original-program-graph-by-rule-graphml": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/rule-graph/full-original/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-full-original-program-graph-by-rule-rdf": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/rule-graph/full-original/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-program-graph-by-rule-graphml":    {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/10-single-paths/program/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-program-graph-graphml":            {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/03-single-paths/program/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-program-graph-normalized-graphml": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/03-single-paths/program-normalized/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-program-graph-rdf":                {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/03-single-paths/program/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-program-normalized-graph-rdf":     {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/03-single-paths/program-normalized/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-single-graph-graphml":             {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/02-isolated-graph/graphml/filtered/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-single-symbolic-graph-graphml":    {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/02-isolated-graph/graphml/symbolic/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-logic-paths-single-unfiltered-graph-graphml":  {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/02-isolated-graph/graphml/unfiltered/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-main":                                         {
+        "value":                                             "{$project-root}/cobol/00_main/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-map-dimensions-json":                          {
+
+        "value":                                             "{$project-root}/analysis/variable-dimensions/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-map-literals-json":                            {
+
+        "value":                                             "{$project-root}/cobol/26-map-literals/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-map-text-corrections-json":                    {
+
+        "value":                                             "{$project-root}/modified-original-map/text-changes-map.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-glossary-xlsx":                         {
+
+        "value":                                             "{$project-root}/merged-data/glossary/excel/merged-glossary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-graphml":                               {
+
+        "value":                                             "{$project-root}/merged-graph/graphml/merged.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-rdf":                                   {
+
+        "value":                                             "{$project-root}/merged-graph/rdf/merged.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-variable-data-graphml":                 {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/merged-data/graphml/global-merged-data.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-variable-data-rdf":                     {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/merged-data/rdf/global-merged-data.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-variable-tracing-graphml":              {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/merged/graphml/global-merged.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-merged-variable-tracing-rdf":                  {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/merged/rdf/global-merged.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-meta-cobol":                                   {
+
+        "value":                                             "{$project-root}/cobol/70-meta-cobol/json/meta-cobol.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-metrics":                                      {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/metrics/html/metrics-summary.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-metrics-csv":                                  {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/metrics/csv/metrics-summary.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-metrics-xlsx":                                 {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/metrics/excel/metrics-summary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-missing-includes":                             {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/missing-copybooks/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-missing-modules-global":                       {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/missing-modules/missing-modules.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-missing-modules-text-global":                  {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/missing-modules/missing-modules.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-assembler-source":                       {
+
+        "value":                                             "{$project-root}/Inventory-classification/assembler/*.asm",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-cobol-source":                           {
+
+        "value":                                             "{$project-root}/Inventory-classification/cobol/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-composite-source":                       {
+
+        "value":                                             "{$project-root}/Inventory-classification/Composite/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-copy-source":                            {
+
+        "value":                                             "{$project-root}/Inventory-classification/cobol-copybook/*.cpy",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-macro-source":                           {
+
+        "value":                                             "{$project-root}/Inventory-classification/assembler-macro/*.mac",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-nasco-unknown-source":                         {
+
+        "value":                                             "{$project-root}/Inventory-classification/unknown/*.unknown",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-original-re-assembled-text":                   {
+
+        "value":                                             "{$project-root}/modified-original-difference-reassembled/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-outcome":                                      {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-outcome-graph-graphml":                        {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-outcome-graph-rdf":                            {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-outcome-io-map-json":                          {
+
+        "value":                                             "{$project-root}/cobol/61-outcome/io-map/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-output-audit-xlsx":                            {
+
+        "value":                                             "{$project-root}/cobol/14_output_audit/xlsx/output-audit.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-partitioned-data-dictionary-structure-json":   {
+
+        "value":                                             "{$project-root}/data-dictionary-terms/json/term-breakdown.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-pl1-source":                                   {
+
+        "value":                                             "{$project-root}/classified-pl1/*.pl1",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-bms":                             {
+        "value":                                             "{$project-root}/bms/preprocess/*.bms",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-preprocessor-comments":                        {
+
+        "value":                                             "{$project-root}/cobol/01B_processed-comments/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-comments-easytrieve":             {
+
+        "value":                                             "{$project-root}/easytrieve/01-comments/*.preprocessed-easytrieve",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-easytrieve":                      {
+
+        "value":                                             "{$project-root}/easytrieve/01-preprocess/*.preprocessed-easytrieve",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-include":                         {
+
+        "value":                                             "{$project-root}/cobol/02_copybook/02_processed/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-main":                            {
+
+        "value":                                             "{$project-root}/cobol/01C_processed/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-pre-main":                        {
+
+        "value":                                             "{$project-root}/cobol/01B_processed/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-preprocessor-simple":                          {
+
+        "value":                                             "{$project-root}/cobol/01_processed-simple/*.processed-txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-proc-no-comment":                              {
+
+        "value":                                             "{$project-root}/job/proc/preprocess-no-comment/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-proc-preprocess":                              {
+        "value":                                             "{$project-root}/job/proc/preprocess/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-proc-steps-json":                              {
+        "value":                                             "{$project-root}/job/proc/structure/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-proc-structure":                               {
+
+        "value":                                             "{$project-root}/job/proc/structure/ast/*.ast-jcl-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-proc-tokenizer":                               {
+
+        "value":                                             "{$project-root}/job/proc/tokenizer/*.token-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-procedure-flow":                               {
+
+        "value":                                             "{$project-root}/cobol/30_procedural-generation/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-process-dependency-graphml":                   {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/07-process-flow-consolidated/graphml/dependency/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-process-flow-program-graph-graphml":           {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/05-process-flow/graphml/program/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-process-reduced-dependency-graphml":           {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/07-process-flow-consolidated/graphml/reduced-dependency/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-process-replacing-main":                       {
+
+        "value":                                             "{$project-root}/cobol/03A_tokenize/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-process-summary-graph-graphml":                {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/07-process-flow-consolidated/graphml/summary/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-ast":                              {
+
+        "value":                                             "{$project-root}/bre/70-business-rule-extract/ast/*.ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-full-summary":                     {
+
+        "value":                                             "{$project-root}/bre/full-summary/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-json":                             {
+
+        "value":                                             "{$project-root}/bre/70-business-rule-extract/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-single-text":                      {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-single/program/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-single-tracing-text":              {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/program-single-tracing-text/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-summary":                          {
+        "value":                                             "{$project-root}/bre/summary/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-program-bre-text":                             {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-text/program/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-token-ast":                        {
+
+        "value":                                             "{$project-root}/bre/70-business-rule-extract/token/*.ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-bre-with-tracing-text":                {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/bre-with-tracing-text/program/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-description-json":                     {
+
+        "value":                                             "{$project-root}/cobol/70-extracted-documentation/json/program-documentation.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-logic-ast":                            {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-logic-boolean-logic-trace-details-text": {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/01-boolean-algebra-trace/program/details/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-logic-boolean-logic-trace-text":       {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/01-boolean-algebra-trace/program/summary/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-rules-text":                           {
+
+        "value":                                             "{$project-root}/bre/65-business-rules/04-deployable/summary/program/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-variable-tracing-graphml":             {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing-span/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-program-variable-tracing-rdf":                 {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing-span/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-pseudo-code-html-view":                        {
+
+        "value":                                             "{$project-root}/cobol/13_logic-pseudo-code/full-html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-pseudo-code-with-source-html":                 {
+
+        "value":                                             "{$project-root}/cobol/13_logic-pseudo-code/full-with-source-html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-pull-source-html-missing-modules":             {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/missing-modules/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-reduced-ssa-ast":                              {
+
+        "value":                                             "{$project-root}/cobol/04-structure-reduced-ssa/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-reduced-ssa-graphml":                          {
+
+        "value":                                             "{$project-root}/cobol/04-structure-reduced-ssa/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-reduced-ssa-rdf":                              {
+
+        "value":                                             "{$project-root}/cobol/04-structure-reduced-ssa/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-report-cloned-code-xlsx":                      {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/cloned-paragraphs/clone-summary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-report-copied-code-xlsx":                      {
+
+        "value":                                             "{$project-root}/cobol/99_summary-results/copied-paragraphs/copied-summary.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-reversetokenize":                              {
+
+        "value":                                             "{$project-root}/cobol/03_reverse-tokenize/*.cbl",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-rpg-source":                                   {
+
+        "value":                                             "{$project-root}/classified-rpg/*.rpg",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-screen-and-db-variable-tracing-excel":         {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/Screen-DB-tracing/excel/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-screen-and-program-variable-tracing-excel":    {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/Screen-program-tracing/excel/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-screen-and-program-variable-tracing-graphml":  {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/Screen-DB-tracing/graphml-with-all-variable/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-screen-and-program-variable-tracing-rdf":      {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/Screen-DB-tracing/rdf-with-all-variable/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-single-files":                                 {
+
+        "value":                                             "{$project-root}/single-files/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-source-cobol-html-view":                       {
+
+        "value":                                             "{$project-root}/cobol/15-htmlsource/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-bms":                                {
+
+        "value":                                             "{$project-root}/bms/structure/ast/*.ast-bms-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-bms-html":                           {
+        "value":                                             "{$project-root}/bms/structure/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-structure-bms-json":                           {
+        "value":                                             "{$project-root}/bms/structure/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-structure-bracketed-and-or-logic":             {
+
+        "value":                                             "{$project-root}/cobol/04_structure/bracketed-and-or-logic/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-common-graphml":                {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/graphml/common/end-isolate.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-common-rdf":                    {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/excel/common/end-to-end.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-common-xlsx":                   {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/excel/common/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-exec-sql-ast":                  {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/exec-sql/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-flow-json":                     {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/dependencies/json/data-flow-dependency-summary.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-isolated-variable-rdf":         {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/rdf/end-isolated.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-structure-all-json":            {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/json/all/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-structure-all-xlsx":            {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/excel/all/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-structure-combined-xlsx":       {
+
+        "value":                                             "{$project-root}/cobol/69-linked-programs/synonyms/excel/combined/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-structure-json":                {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/data-structure/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-data-structure-memory-map-html":     {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/memory-map/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd":                                 {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-integrated-calls-graphml":        {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/dd-integrated/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-integrated-calls-rdf":            {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/dd-integrated/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-level88-json":                    {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-rdf":                             {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-redefines-graphml":               {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/redefines-map/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-redefines-rdf":                   {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/redefines-map/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-structure-tree-graphml":          {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/structure-tree/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-dd-structure-tree-rdf":              {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/structure-tree/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-error-path":                         {
+
+        "value":                                             "{$project-root}/cobol/04_structure/ast-error/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-file-control-ast":                   {
+
+        "value":                                             "{$project-root}/cobol/05_structure-environmnt/file-control/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-file-control-json":                  {
+
+        "value":                                             "{$project-root}/cobol/05_structure-environmnt/file-control/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-file-description-json":              {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/file-description/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-global-calls-graphml":               {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/global/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-global-calls-rdf":                   {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/global/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-initial-path":                       {
+
+        "value":                                             "{$project-root}/cobol/04_structure/ast-initial/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-internal-graph-graphml":             {
+
+        "value":                                             "{$project-root}/cobol/04_structure/internal-call-graph/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-internal-graph-rdf":                 {
+
+        "value":                                             "{$project-root}/cobol/04_structure/internal-call-graph/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-io-control-json":                    {
+
+        "value":                                             "{$project-root}/cobol/04_structure/io-file-control/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-local-calls-graphml":                {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/local/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-local-calls-rdf":                    {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/local/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-local-combined-graphml":             {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/combined/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-local-combined-rdf":                 {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/combined/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-meta-cobol-json":                    {
+
+        "value":                                             "{$project-root}/cobol/04_structure/meta-cobol/summary-meta-cobol.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-path":                               {
+
+        "value":                                             "{$project-root}/cobol/04_structure/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-path-easytrieve":                    {
+
+        "value":                                             "{$project-root}/easytrieve/04-structure/*.easytrieve-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-pseudo-code":                        {
+
+        "value":                                             "{$project-root}/cobol/04_structure/pseudo-code/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-reduced-vocabulary-path":            {
+
+        "value":                                             "{$project-root}/cobol/08-variable-reduction-mapping/ast/*.ast",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-sql-includes-json":                  {
+
+        "value":                                             "{$project-root}/cobol/05_structure-dd/sql-includes/json/sql-includes.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-ssa-ast":                            {
+
+        "value":                                             "{$project-root}/cobol/04_structure/ssa/ast/*.cobol-ast-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-token-fragments":                    {
+
+        "value":                                             "{$project-root}/cobol/04_isolate_token_streams/token-fragments/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-traced-calls-graphml":               {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/trace/graphml/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-traced-calls-rdf":                   {
+
+        "value":                                             "{$project-root}/cobol/14-ssa/trace/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-variable-abbreviations-csv":         {
+
+        "value":                                             "{$project-root}/cobol/04_structure/variable-glossary/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-structure-variable-list-json":                 {
+
+        "value":                                             "{$project-root}/cobol/04_structure/variable-list/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "target-sysin":                                        {
+        "value":                                             "{$project-root}/Sysin/*.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-text-differences-json":                        {
+
+        "value":                                             "{$project-root}/modified-original-difference/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-text-unique-differences-json":                 {
+
+        "value":                                             "{$project-root}/modified-original-unique-difference/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-include":                             {
+
+        "value":                                             "{$project-root}/cobol/02_copybook/03_tokenize/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-include-before-no-line-number-replace": {
+
+        "value":                                             "{$project-root}/cobol/02_copybook/02A_tokenize-before-replace-no-line-number/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-include-before-replace":              {
+
+        "value":                                             "{$project-root}/cobol/02_copybook/02B_tokenize-before-replace/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-main":                                {
+
+        "value":                                             "{$project-root}/cobol/01B_tokenize/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-main-easytrieve":                     {
+
+        "value":                                             "{$project-root}/easytrieve/03-tokenize/*.easytrieve-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-main-no-line-numbers":                {
+
+        "value":                                             "{$project-root}/cobol/01A_tokenize/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-main-no-line-numbers-easytrieve":     {
+
+        "value":                                             "{$project-root}/easytrieve/02-tokenize-no-line-numbers/*.easytrieve-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-tokenize-merged":                              {
+
+        "value":                                             "{$project-root}/cobol/03_tokenize/*.cobol-token-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-toknize-bms":                                  {
+
+        "value":                                             "{$project-root}/bms/tokenize/*.ast-bms-xml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-unknown-source":                               {
+
+        "value":                                             "{$project-root}/classified-pl1/*.unknown",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-validation-results-json":                      {
+
+        "value":                                             "{$project-root}/cobol/60-dependency-graph//validation/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-dependency-html":                     {
+
+        "value":                                             "{$project-root}/cobol/50_business rules/variable-dependency/html/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-dependency-reduced-html":             {
+
+        "value":                                             "{$project-root}/cobol/50_business rules/variable-dependency/html/*-reduced.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-list-txt":                            {
+
+        "value":                                             "{$project-root}/cobol/70-stats/txt/variable-selection.txt",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-map-json":                            {
+
+        "value":                                             "{$project-root}/cobol/70-stats/json/variable-selection.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-mapping-combined-table-xlsx":         {
+
+        "value":                                             "{$project-root}/cobol/08-variable-reduction-mapping-combined/excel/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-mapping-table-details-json":          {
+
+        "value":                                             "{$project-root}/cobol/08-variable-reduction-mapping/details/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-mapping-table-json":                  {
+
+        "value":                                             "{$project-root}/cobol/08-variable-reduction-mapping/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-mapping-table-xlsx":                  {
+
+        "value":                                             "{$project-root}/cobol/08-variable-reduction-mapping/excel/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-complete-csv":                {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/csv/complete/*.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-graphml-complete-graphml":    {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/graphml/complete/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-graphml-no-constants-graphml": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/graphml/no-constants/*.graphml",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-html-missing-abbreviations-html": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/html/missing-abbreviations/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-html-variable-frequency-html": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/html/variable-frequency/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-containing-structures-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/containing-structures/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-missing-abbreviations-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/missing-abbreviations/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-possible-values":        {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/possible-values/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-undefined-variables":    {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/undefined-variables/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-variable-dictionary-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/variable-dictionary/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-variable-dynamic-resolution-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/dynamic-resolution/json/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-variable-frequency-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/variable-frequency/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-json-variable-synonyms-json": {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/json/variable-synonyms/*.json",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-rdf":                         {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/rdf/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-rdf-complete":                {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/rdf/complete/*.rdf",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-variable-tracing-undefined-variables-html":    {
+
+        "value":                                             "{$project-root}/cobol/11_variable-tracing/html/undefined-variables-values/*.html",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-y29-variable-usage-summary-csv":               {
+
+        "value":                                             "{$project-root}/cobol/Y-29/summary.csv",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "target-y29-variable-usage-xlsx":                      {
+
+        "value":                                             "{$project-root}/cobol/Y-29/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "tarrget-constrained-glossary-template-xlsx":          {
+
+        "value":                                             "{$project-root}/glossary/constrained-list.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "trarget-glossaty-template-xlsx":                      {
+
+        "value":                                             "{$project-root}/glossary-template/*.xlsx",
+        "outputLevel":                                       "LEVEL_0"
+      },
+
+      "vertex-field-calls-name":                             {
+        "value":                                             "{$client-name}_CALLS",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "vertex-field-cics-name":                              {
+        "value":                                             "{$client-name}_CICS",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "vertex-field-group-name":                             {
+        "value":                                             "{$client-name}_DUPLICATES",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "vertex-field-import-name":                            {
+        "value":                                             "{$client-name}_IMPORT",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "vertex-field-ims-name":                               {
+        "value":                                             "{$client-name}_IMS",
+        "outputLevel":                                       "LEVEL_0"
+      },
+      "vertex-field-main-name":                              {
+        "value":                                             "{$client-name}_CORE_MODEL",
+        "outputLevel":                                       "LEVEL_0"
+      }
+    }
+  },
+  "mapLocalSettings":                                        {
+    "map":                                                   {}
+  }
+}

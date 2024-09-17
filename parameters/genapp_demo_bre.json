@@ -1,0 +1,14 @@
+{
+    "mapGlobal": {
+        "project-root": "genapp-bre",
+        "client-name": "GENAPP",
+        "source-main": "source/{$project-root}/CBL/*.cbl",
+		"source-include-path-1": "source/{$project-root}/CPY/*.cpy",
+
+	    "parameter-isolate-extractlogicflow-resolver-type": 				"business-text",
+	
+        "root": "data",
+	
+    	"parameter-run-single-step":                       					""
+     }
+}

@@ -1,0 +1,47 @@
+
+{
+    "mapGlobal": {
+      "project-root": "genapp-bre",
+      "client-name": "GENAPP",
+      "source-main": "source/{$project-root}/CBL/*.cbl",
+  "source-include-path-1": "source/{$project-root}/CPY/*.cpy",
+      
+      "source-excel-load-business-abbreviations-path":                        "source/{$project-root}/excel/business-abbreviations/*.xlsx",
+      "source-excel-load-data-dictionary-path":                               "source/{$project-root}/excel/Glossary/*.xlsx",
+     
+      "root": "data",
+        
+        "parameter-client-customization":                           "com.turandot.framework.client.ElevanceCustomizations",                 
+        
+        "parameter-dictionary-pattern":                             "1",
+        "parameter-excel-load-abbreviations-business-name-column":  "2",
+        "parameter-excel-load-abbreviations-sheet-name":            "Sheet1",
+        "parameter-excel-load-data-dictionary-sheet-name":          "Glossary",
+        "parameter-isolate-extractlogicflow-resolver-type":         "business-text",
+        "parameter-max-paths":                                      "1",                         
+        "parameter-optimize-local-logic":                           "true",
+        "parameter-output-naming":                                  "business",
+        "parameter-processing-mode":                                "base",
+        "parameter-regression-test":                                "true",
+        "parameter-remove-indexes":                                 "true",
+        "parameter-resolve-level-88":                               "true",
+        "parameter-run-single-step":                                "fragment-consolidated-ast,generate-logic-paths-label-based-fragmented",
+        "parameter-single-outcome":                                 "false",
+        "parameter-skip-data-collection":                           "true",
+        "parameter-source-filter-exact-match":                      "true",
+        "parameter-source-filter":                                  "",
+        "parameter-tag-each-rule" :                                 "false",
+        "parameter-propagate-loops" :                               "true",
+        "parameter-use-original-filename" :                         "false",
+        
+        "parameter-bre-optimize-if-then-else":                      "true", 
+        "parameter-label-based":                                    "true",   
+        
+        "parameter-threshold":										"100",  
+       
+        "parameter-process-elevance-time-date-pattern":             "false",
+        "parameter-process-bracket-and-or-logic":                   "true",
+        "source-glossary-constraint-text"                     :     "{$project-root}/cobol/61-outcome/text/*.txt"
+  
+     }
+}
